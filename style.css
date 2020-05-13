@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'gloria';
+    background-image: url(images/pawscartoon\ .jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+header {
+    margin: 0;
+    height: 700px;
+    background-image: url(images/secretlife.jpg);
+    border-radius:0px 0px 300px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Bangers'; 
+    border:3px solid rgb(221, 143, 175);
+}
+header h1{
+    padding-top: 130px;
+    text-align: center;
+    color: sandybrown;
+    font-family: 'Bangers';
+    font-size: 2em;
+    letter-spacing: 5px;
+    text-shadow: sienna 4px 3px;
+    margin-bottom: 10px;
+}
+header p{
+    margin-top: 0.2em;
+    color: sandybrown;
+    font-family: 'Amatic';
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: rgb(116, 61, 35) 2px 2px;
+}
+nav { 
+    margin-bottom: 40px;
+    top:60px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+   }
+li{
+    display: inline;
+    list-style-type:none;
+}
+p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.topnav a{
+    font-family: 'gloria';
+    font-size: 30px;
+    font-weight: bold;
+    position: sticky;
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 20%;
+}
+.topnav a:hover{
+    border: 2px solid white;
+    border-radius: 8px;
+    text-shadow: tan 2px 2px;
+    color: rgb(241, 241, 229);
+    cursor: pointer;
+}
+.story{
+    position: relative;
+    display: grid; 
+    width: 100%;   
+}
+.story  p{
+    margin: 50px 50px;
+    padding: 40px;
+    border: 5px solid rgb(102, 65, 65);
+    border-radius: 15px;
+    background: rgba(210, 218, 213, 0.925); 
+    height: 350px;
+    width: 500px;
+    font-size: 16px;
+    box-shadow: rgba(233, 150, 122, 0.822) 30px 30px;
+}
+.story h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:3px solid rgb(221, 143, 175) ;
+    color: rgb(42, 42, 43);
+    text-align: center;
+    letter-spacing: 0.3em;
+    background-color:rgba(255, 179, 179, 0.411);
+    padding: 10px;
+    border-radius:300px;
+}
+#teddywalks{
+    animation: turn 8s 5s, walk 6s 8s;
+    position: absolute;
+    left: 100px;
+    top: 800px;
+    transform: rotateY(90deg);
+}
+.teddyheader{
+    position: relative;
+}
+h1{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+}
+.descript{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: lightsalmon;
+    border: 1px solid gray;
+    border-radius: 14px;
+    padding: 5px;
+}
+#welcome{
+    padding: 0 20px 20px 20px; 
+    margin-bottom: 200px;
+  }
+#friends{
+    width: 100%;
+    top: 200px;
+    margin-bottom: 200px;
+}
+
+#contact footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color:#e0ccbbc0;
+    background-image: url(assets/footer_image.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    width: 100%;
+  }
+
+#contact p{
+    padding: 0px 10px;
+    text-align: justify;
+    color: rgb(187, 138, 138);
+    font-family: 'Amatic';
+}
+#contact a{
+    font-size: 34px;
+    letter-spacing: 20px;
+}
+
+  
+
+
+  
+@keyframes walk{
+    from{transform: translateX(100px)}
+    to{transform: translateX(600px)}
+}
+@keyframes turn{
+    0% {transform: rotateY(90deg)}
+    100% {transform: rotateY(0deg)}
+}
+@keyframes bounce{
+    0%{transform: translate(-60px 30px)}
+    25%{transform: translate(100px -30px)}
+    50%{transform: translate(200px 60px)}
+    75%{transform: translateX(300px)}
+    100%{transform: translateX(600px)}
+}
+@font-face {
+    font-family:'Bangers';
+    src: url(fonts/Bangers/Bangers-Regular.ttf);}
+@font-face {
+    font-family: 'Amatic';
+    src: url(fonts/Amatic_SC/AmaticSC-Regular.ttf);}
+@font-face{
+    font-family: 'amatic-bold';
+    src: url(fonts/Amatic_SC/AmaticSC-Bold.ttf);}
+@font-face{
+    font-family: 'gloria';
+    src: url(fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
+}

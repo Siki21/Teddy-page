@@ -1,0 +1,77 @@
+@media screen and (max-width: 800px){
+    .card{
+        flex-grow: 1;
+    }
+    .card-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 900px;
+    }
+    #teddywalks{
+       animation: none;
+    }
+    .story  p{
+        width: auto;
+        margin: 50px 50px;
+        padding: 40px;
+        border: 5px solid rgb(102, 65, 65);
+        border-radius: 15px;
+        background: rgba(210, 218, 213, 0.925); 
+        height: auto;
+    }
+    .story h4{
+        letter-spacing: 0px;
+    }
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .topnav a{
+        font-family: 'gloria';
+        font-size: 24px;
+        position: relative;
+        top: 300px;
+        display: block;
+        width: 100%;
+    }
+    header h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-shadow: sienna 4px 3px;
+    }
+    header p{
+       font-size: 24px;
+       letter-spacing: normal;
+    }
+    .story h4{
+        letter-spacing:normal;
+        background-color:rgba(255, 179, 179, 0.411);
+        padding: 10px;
+        border-radius:300px;
+        font-size: 24px;
+    }
+    .story  p{
+        margin: 0;
+        font-size: 16px;
+        padding: 10px;
+    }
+    h1.heading{
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    #welcome.grid{
+        padding: 0; 
+        width: 100%;
+        margin: 0;
+    }
+    #friends{
+        margin-top: 100px;
+    }
+}
+@media only screen and (min-width: 1200px){
+
+}
